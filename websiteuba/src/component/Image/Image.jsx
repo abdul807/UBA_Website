@@ -1,21 +1,21 @@
 import React from "react";
-import image from "../../assets/picutere.jpg";
 
+import topImage from  "../../assets/picutere.jpg";
 const Image = () => {
   // Replace with your image URL
   return (
     <section className="">
-      <div className="sm:wfull h-[900px] relative">
+      <div className={`sm:w-full h-[900px] relative`}>
         <img
-          src={image}
+          src={topImage}
           alt="Amalitech Training"
-          className="w-full h-[500px] sm:h-[720px] object-cover"
+          className="w-full absolute h-[500px] sm:h-[720px] object-cover"
         />
       </div>
 
       <div className="absolute flex flex-col  w-[400px] top-20  sm:top-50 text-left p-15 sm:w-1/2">
         <div className="heading ">
-          <h1 className="sm:leading-15 text-white uppercase text-center sm:text-left font-extrabold sm:text-5xl">
+          <h1 className="sm:leading-15 text-white uppercase text-center sm:text-left font-extrabold text-2xl sm:text-5xl">
             Shaping The Future Of Tech Through Global Collaboration
           </h1>
         </div>

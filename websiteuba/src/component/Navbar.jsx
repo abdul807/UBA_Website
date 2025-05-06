@@ -4,25 +4,26 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
     <header className="flex justify-between items-center bg-white p-4 shadow-md h-20">
-      <div className="visible text-2xl font-bold text-green-600">
+      <h1 className="sm:text-2xl text-xl font-bold text-green-600">
         Umar Bun Abdul Aziz
-      </div>
-      {/* <div className="md:hidden text-2xl font-bold text-green-600">Uba</div> */}
+      </h1>
 
       <button
         id="hamburger-button"
-        class="sm:hidden focus:outline-none text-4xl"
+        className="sm:hidden focus:outline-none text-4xl text-green-900 "
       >
         &#9776;
       </button>
       <nav className="hidden sm:flex space-x-4">
-        <NavLink className="text-sm">Home</NavLink>
-        <NavLink className="text-sm">About Amalitech</NavLink>
-        <NavLink className="text-sm">Amalitech Services</NavLink>
-        <NavLink className="text-sm">Amalitech Training</NavLink>
-        <NavLink className="text-sm">Amalitech Social</NavLink>
-        <NavLink className="text-sm"> Jobs</NavLink>
-        <NavLink className="text-sm">Locations & contact</NavLink>
+        <NavLink className="text-sm hover:text-green-900">Home</NavLink>
+        <NavLink className="text-sm hover:text-green-900">About UBA</NavLink>
+        <NavLink className="text-sm hover:text-green-900">UBA Services</NavLink>
+        <NavLink className="text-sm hover:text-green-900">UBA Training</NavLink>
+        <NavLink className="text-sm hover:text-green-900">UBA Social</NavLink>
+        <NavLink className="text-sm hover:text-green-900"> Jobs</NavLink>
+        <NavLink className="text-sm hover:text-green-900">
+          Locations & contact
+        </NavLink>
       </nav>
     </header>
   );
