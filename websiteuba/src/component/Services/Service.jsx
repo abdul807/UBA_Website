@@ -1,38 +1,54 @@
 import React from "react";
 
 import "./service.css";
+
 const Service = () => {
+  const flipStyle = {
+    "@keyframes flip": {
+      "0%": {
+        transform: "rotateY(0deg)",
+      },
+      "50%": {
+        transform: "rotateY(180deg)",
+      },
+      "100%": {
+        transform: "rotateY(360deg)",
+      },
+    },
+    animation: "flip 1s ease-in-out",
+  };
   return (
-    <section id="service">
-      <div className="bg-blue-900 text-center py-5  relative w-full">
+    <section id="service" className="">
+      <div className="bg-[#424874] text-center py-5  relative w-full">
         <div className="flex flex-col justify-center items-center">
           <h1 className="heading font-bold sm:text-3xl text-center text-white p-4">
             Our services
           </h1>
           <div className="flex flex-col sm:flex-row sm:flex-wrap gap-5 justify-center items-center m-10">
-            <div className=" text-center text-white border-1 border-white py-15 px-20 hover:cursor-pointer hover:flip-horizontal-bottom">
-              <h1>Cloud Solutions</h1>
+            <div className={`w-80 h-40  text-center text-white border-1 border-white py-15 px-20 hover:cursor-pointer hover:animate-${flipStyle}`}> 
+              <h1>Arabic Education</h1>
             </div>
-            <div className="flex flex-col sm:flex-row sm:flex-wrap text-center text-white border-1 border-white py-15 px-20">
+            <div className="flex w-80 h-40  flex-col sm:flex-row sm:flex-wrap text-center text-white border-1 border-white py-15 px-20">
+              Secular Eduction
+            </div>
+            <div className="flex w-80 h-40  flex-col sm:flex-row sm:flex-wrap text-center text-white border-1 border-white py-15 px-20">
+              Adult Education
+            </div>
+            <div className="flex w-80 h-40 flex-col sm:flex-row sm:flex-wrap text-center text-white border-1 border-white py-15 px-20">
+              Quran Memorization
+            </div>
+            <div className="flex w-80 h-40  flex-col sm:flex-row sm:flex-wrap text-center text-white border-1 border-white py-15 px-20">
               Cloud Solutions
             </div>
-            <div className="flex flex-col sm:flex-row sm:flex-wrap text-center text-white border-1 border-white py-15 px-20">
+            <div className="flex w-80 h-40  flex-col sm:flex-row sm:flex-wrap text-center text-white border-1 border-white py-15 px-20">
               Cloud Solutions
             </div>
-            <div className="flex flex-col sm:flex-row sm:flex-wrap text-center text-white border-1 border-white py-15 px-20">
-              Cloud Solutions
-            </div>
-            <div className="flex flex-col sm:flex-row sm:flex-wrap text-center text-white border-1 border-white py-15 px-20">
-              Cloud Solutions
-            </div>
-            <div className="flex flex-col sm:flex-row sm:flex-wrap text-center text-white border-1 border-white py-15 px-20">
-              Cloud Solutions
-            </div>
-            <div className="flex flex-col sm:flex-row sm:flex-wrap text-center text-white border-1 border-white py-15 px-20">
+            <div className="flex w-80 h-40  flex-col sm:flex-row sm:flex-wrap text-center text-white border-1 border-white py-15 px-20">
               Cloud Solutions
             </div>
           </div>
         </div>
+        <button className="bg-[#DCD6F7] text-white px-5 mt-2 py-3 rounded-lg font-bold cursor-pointer flex justify-center items-center mx-auto">Learn More</button>
       </div>
     </section>
   );

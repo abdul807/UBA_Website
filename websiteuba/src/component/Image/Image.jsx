@@ -15,7 +15,7 @@ const Image = () => {
 
       <div className="absolute flex flex-col  w-[400px] top-20  sm:top-50 text-left p-15 sm:w-1/2">
         <div className="heading ">
-          <h1 className="sm:leading-15 text-white uppercase text-center sm:text-left font-extrabold text-2xl sm:text-5xl">
+          <h1 className="sm:leading-15 text-white sm:-mt-20 uppercase text-center sm:text-left font-extrabold text-2xl sm:text-5xl">
             Shaping The Future Of Tech Through Global Collaboration
           </h1>
         </div>
@@ -24,7 +24,7 @@ const Image = () => {
           officia accusamus delectus necessitatibus minima tenetur fuga, natus
         </div>
         <div className="sm:justify-start flex justify-center mt-4 space-x-4 text-white mt-10">
-          <button className="capitalize bg-green-900 px-3 py-1 rounded-lg shadow-lg">
+          <button className="capitalize bg-[#424874] px-3 py-1 rounded-lg shadow-lg">
             contact us
           </button>
           <button className="capitalize border-1 border-white px-3 py-1 rounded-lg shadow-lg">

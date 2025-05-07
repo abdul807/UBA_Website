@@ -9,10 +9,12 @@ import Train from "../component/Training/Train";
 import Provider from "../component/Provider/Provider";
 import Background from "../component/Background/Background";
 import Service from "../component/Services/Service";
+import Benefit from "../component/Benefits/Benefit";
+import Conversation from "../component/Conversation/Conversation";
 
 const HomePage = () => {
   return (
-    <div className="min-h-screen sm:bg-white bg-gray-100 relative">
+    <div className="min-h-screen bg-[#F4EEFF]  relative">
       <Navbar />
       <Image />
       <Offers />
@@ -22,6 +24,8 @@ const HomePage = () => {
       <Background />
       <Provider />
       <Service />
+      <Benefit />
+      <Conversation />
   
       {/* <div className="bg-red-200 p-4">Row 4 Content</div> */}
     </div>

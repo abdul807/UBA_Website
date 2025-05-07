@@ -3,8 +3,8 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <header className="flex justify-between items-center bg-white p-4 shadow-md h-20">
-      <h1 className="sm:text-2xl text-xl font-bold text-green-600">
+    <header className="flex justify-between items-center bg-[#F4EEFF] p-4 shadow-md h-20">
+      <h1 className="sm:text-2xl text-xl font-extrabold text-[#424874]">
         Umar Bun Abdul Aziz
       </h1>
 
@@ -14,7 +14,7 @@ const Navbar = () => {
       >
         &#9776;
       </button>
-      <nav className="hidden sm:flex space-x-4">
+      <nav className="hidden  sm:flex space-x-4">
         <NavLink className="text-sm hover:text-green-900">Home</NavLink>
         <NavLink className="text-sm hover:text-green-900">About UBA</NavLink>
         <NavLink className="text-sm hover:text-green-900">UBA Services</NavLink>
