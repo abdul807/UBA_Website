@@ -21,7 +21,7 @@ const Service = () => {
     <section id="service" className="">
       <div className="bg-[#424874] text-center py-5  relative w-full">
         <div className="flex flex-col justify-center items-center">
-          <h1 className="heading font-bold sm:text-3xl text-center text-white p-4">
+          <h1 className="heading capitalize font-bold sm:text-3xl text-center text-white p-4">
             Our services
           </h1>
           <div className="flex flex-col sm:flex-row sm:flex-wrap gap-5 justify-center items-center m-10">
@@ -48,7 +48,7 @@ const Service = () => {
             </div>
           </div>
         </div>
-        <button className="bg-[#DCD6F7] text-white px-5 mt-2 py-3 rounded-lg font-bold cursor-pointer flex justify-center items-center mx-auto">Learn More</button>
+        <button className=" border-1 border-[#DCD6F7] text-white px-5 mt-2 py-3 rounded-lg font-bold cursor-pointer flex justify-center items-center mx-auto">Learn More</button>
       </div>
     </section>
   );

@@ -5,9 +5,9 @@ import "aos/dist/aos.css";
 const Benefit = () => {
   return (
     <section id="benefits" className="m-10">
-      <div className="max-w-6xl mx-auto ">
+      <div className="max-w-5xl mx-auto ">
         <div className="heading flex flex-col mb-4 justify-center items-center text-center">
-          <h1 className="font-extrabold text-5xl mb-4">
+          <h1 className="font-extrabold capitalize text-5xl mb-4">
             Benefits of working with us
           </h1>
           <p>

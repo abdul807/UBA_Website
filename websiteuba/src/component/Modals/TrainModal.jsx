@@ -1,0 +1,16 @@
+import React from "react";
+
+const TrainModal = () => {
+  return (
+    <div className="bg-white rounded-lg shadow-lg  left-30 right-30 absolute top-16 text-white flex justify-start gap-10 mx-auto items-start min-w-[700px] py-10 px-10 min-h-60 z-100 flex">
+      <div className="image  w-70">
+        <img src={image1} alt="" srcset="" />
+      </div>
+      <div className="informationlinks text-black sm:flex sm:flex-col gap-5">
+        training
+      </div>
+    </div>
+  );
+};
+
+export default TrainModal;

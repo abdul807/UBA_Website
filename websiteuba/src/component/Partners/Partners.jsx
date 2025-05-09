@@ -8,10 +8,10 @@ const Partners = () => {
   return (
     <section id="partners">
       <div className="bg-[#424874] text-center py-5 h-50 sm:h-80 relative w-full">
-        <div className="heading uppercase text-2xl font-bold text-white">
+        <div className="heading capitalize text-2xl font-bold text-white">
           Our Partners
         </div>
-        <div className="max-w-6xl mx-auto text-white ">
+        <div className="max-w-5xl mx-auto text-white ">
           <h1 className="sm:text-5xl sm:font-bold p-4 text-xl">
             At UBA Islamic institute, our partnerships are the cornerstone of
             our mission brith talented individuals.

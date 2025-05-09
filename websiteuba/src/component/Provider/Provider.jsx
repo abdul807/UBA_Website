@@ -4,7 +4,7 @@ import "aos/dist/aos.css";
 const Provider = () => {
   return (
     <section id="provider">
-      <div className="max-w-6xl bg-[#F4EEFF]  mx-auto flex flex-col sm:flex-row gap-20 items-center justify-center m-4 p-5">
+      <div className="max-w-5xl bg-[#F4EEFF]  mx-auto flex flex-col sm:flex-row gap-20 items-center justify-center m-4 p-5">
         <div className="info sm:w-1/2" data-aos="fade-right">
           <h1 className="capitalize text-center leading-10 text-xl sm:text-3xl text-[#424874] text-xl  mb-5 font-extrabold">
             We Are Not A Classic Outsorucing Provider

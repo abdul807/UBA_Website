@@ -11,6 +11,7 @@ import Background from "../component/Background/Background";
 import Service from "../component/Services/Service";
 import Benefit from "../component/Benefits/Benefit";
 import Conversation from "../component/Conversation/Conversation";
+import Footer from "../component/Footer/Footer";
 
 const HomePage = () => {
   return (
@@ -26,6 +27,7 @@ const HomePage = () => {
       <Service />
       <Benefit />
       <Conversation />
+      <Footer />
   
       {/* <div className="bg-red-200 p-4">Row 4 Content</div> */}
     </div>
