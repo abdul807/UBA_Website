@@ -29,7 +29,7 @@ const MapComponent = () => {
   }, []);
 
   return (
-    <div className="h-[500px] object-contain">
+    <div className="h-[500px] object-contain z-100">
       <div id="map" style={{ width: "100%", height: "100%" }}></div>
     </div>
   );

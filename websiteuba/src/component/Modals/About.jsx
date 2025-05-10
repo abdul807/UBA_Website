@@ -1,10 +1,10 @@
 import React from "react";
-import image1 from '../../assets/picutere.jpg'
+import image1 from "../../assets/picutere.jpg";
 import { Link } from "react-router-dom";
 
 const About = () => {
   return (
-    <div className="bg-white rounded-lg shadow-lg left-90 absolute top-70 text-white flex justify-start gap-10 mx-auto items-start min-w-[700px] py-10 px-10 min-h-60 z-100 flex">
+    <div className="bg-[#F4EEFF] rounded-lg shadow-lg left-60 fixed top-13 text-white flex justify-start gap-10 mx-auto items-start min-w-[1000px] py-10 px-10 min-h-60 z-100 flex">
       <div className="image  w-70">
         <img src={image1} alt="" srcset="" />
       </div>
