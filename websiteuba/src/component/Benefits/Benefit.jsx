@@ -7,7 +7,7 @@ const Benefit = () => {
     <section id="benefits" className="m-10">
       <div className="max-w-5xl mx-auto ">
         <div className="heading flex flex-col mb-4 justify-center items-center text-center">
-          <h1 className="font-extrabold capitalize text-5xl mb-4">
+          <h1 className="font-extrabold text-[#424874] capitalize text-2xl sm:text-5xl mb-4">
             Benefits of working with us
           </h1>
           <p>
@@ -21,7 +21,7 @@ const Benefit = () => {
               <img src={risk} alt="" srcset="" />
             </div>
             <div className="message">
-              <h1 className="font-bold text-lg">Low Rish</h1>
+              <h1 className="font-bold text-[#424874] text-lg">Low Rish</h1>
               <p >
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas,
                 doloremque!
@@ -33,7 +33,7 @@ const Benefit = () => {
               <img src={risk} alt="" srcset="" />
             </div>
             <div className="message">
-              <h1 className="font-bold text-lg">Low Rish</h1>
+              <h1 className="font-bold text-[#424874] text-lg">Low Rish</h1>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas,
                 doloremque!
@@ -45,7 +45,7 @@ const Benefit = () => {
               <img src={risk} alt="" srcset="" />
             </div>
             <div className="message">
-              <h1 className="font-bold text-lg">Low Rish</h1>
+              <h1 className="font-bold text-[#424874] text-lg">Low Rish</h1>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas,
                 doloremque!
@@ -57,7 +57,7 @@ const Benefit = () => {
               <img src={risk} alt="" srcset="" />
             </div>
             <div className="message">
-              <h1 className="font-bold text-lg">Low Rish</h1>
+              <h1 className="font-bold text-[#424874] text-lg">Low Rish</h1>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas,
                 doloremque!
@@ -69,7 +69,7 @@ const Benefit = () => {
               <img src={risk} alt="" srcset="" />
             </div>
             <div className="message">
-              <h1 className="font-bold text-lg">Low Rish</h1>
+              <h1 className="font-bold text-[#424874] text-lg">Low Rish</h1>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas,
                 doloremque!
@@ -81,7 +81,7 @@ const Benefit = () => {
               <img src={risk} alt="" srcset="" />
             </div>
             <div className="message">
-              <h1 className="font-bold text-lg">Low Rish</h1>
+              <h1 className="font-bold text-[#424874] text-lg">Low Rish</h1>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas,
                 doloremque!
@@ -89,7 +89,7 @@ const Benefit = () => {
             </div>
           </div>
         </div>
-        <button className="text-white text-center self-center bg-[#424874] rounded-lg font-bold px-7 py-4 flex justify-center items-center mx-auto mt-4">Learn More</button>
+        <button className="border-1 border-[#424874] text-[#424874] text-lg px-5 mt-2 py-3 rounded-lg font-bold cursor-pointer flex justify-center items-center mx-auto">Learn More</button>
 
       </div>
     </section>

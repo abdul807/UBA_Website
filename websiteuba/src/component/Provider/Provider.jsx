@@ -6,10 +6,10 @@ const Provider = () => {
     <section id="provider">
       <div className="max-w-5xl bg-[#F4EEFF]  mx-auto flex flex-col sm:flex-row gap-20 items-center justify-center m-4 p-5">
         <div className="info sm:w-1/2" data-aos="fade-right">
-          <h1 className="capitalize text-center leading-10 text-xl sm:text-3xl text-[#424874] text-xl  mb-5 font-extrabold">
+          <h1 className="capitalize text-center leading-10 text-2xl sm:text-5xl text-[#424874]   mb-5 font-extrabold">
             We Are Not A Classic Outsorucing Provider
           </h1>
-          <p className="leading-8">
+          <p className="sm:text-justify sm:leading-8 sm:text-lg">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam
             aspernatur accusamus ipsa inventore iure perspiciatis minus
             voluptas. Debitis necessitatibus provident earum fugiat minima quos
@@ -21,7 +21,7 @@ const Provider = () => {
               accusamus ipsa inventore iure perspiciatis minus.{" "}
             </span>
           </p>
-          <button className="bg-[#424874] text-white px-5 mt-2 py-3 rounded-lg font-bold cursor-pointer flex justify-center items-center mx-auto">Learn More</button>
+        <button className="border-1 border-[#424874] text-[#424874] text-lg px-5 mt-5 py-3 rounded-lg font-bold cursor-pointer flex justify-center items-center mx-auto">Learn More</button>
           </div>
         <div className="image sm:w-1/2" data-aos="fade-left">
           <img

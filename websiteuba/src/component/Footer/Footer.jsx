@@ -8,9 +8,9 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <footer className="footer text-white" id="footer">
-      <div className="bg-[#424874] flex flex-col text-center sm:w-full text-white py-10">
+      <div className="bg-[#424874] flex flex-col text-center sm:w-full text-white py-10 px-10">
         <div className="flex flex-col justify-center items-center gap-5   sm:flex-row sm:justify-around sm:items-start mb-20">
-          <div className="logo font-extrabold text-3xl">UBA</div>
+          <div className="logo font-extrabold text-2xl sm:text-5xl">UBA</div>
           <div className="home flex flex-col gap-2" id="home">
             <Link>Home</Link>
             <Link className="text-sm text-[#A6B1E1] hover:scale-110">About Us</Link>

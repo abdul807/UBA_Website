@@ -1,6 +1,7 @@
-import React from "react";
 
+import "aos/dist/aos.css";
 import topImage from  "../../assets/picutere.jpg";
+import "./image.css"
 const Image = () => {
   // Replace with your image URL
   return (
@@ -19,15 +20,15 @@ const Image = () => {
             Shaping The Future Of Tech Through Global Collaboration
           </h1>
         </div>
-        <div className="text-white sm:text-justify leading-7 mt-4 text-center">
+        <div className="text-white sm:text-justify text-lg leading-7 mt-4 text-center">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi quos
           officia accusamus delectus necessitatibus minima tenetur fuga, natus
         </div>
-        <div className="sm:justify-start flex justify-center mt-4 space-x-4 text-white mt-10">
-          <button className="capitalize bg-[#424874] px-3 py-1 rounded-lg shadow-lg">
+        <div className="sm:justify-start flex justify-center space-x-4 text-white mt-20">
+          <button className="capitalize bg-[#424874] px-3 py-3  sm:px-10 sm:py-5 rounded-lg font-bold shadow-lg">
             contact us
           </button>
-          <button className="capitalize border-1 border-white px-3 py-1 rounded-lg shadow-lg">
+          <button className="capitalize border-1 border-white px-3 py-3 sm:px-10 sm:py-5 rounded-lg font-bold shadow-lg">
             watch video
           </button>
         </div>

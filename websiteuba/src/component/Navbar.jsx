@@ -60,11 +60,9 @@ import React, { useState } from "react";
 import { NavLink, Link } from "react-router-dom";
 import About from "./Modals/About";
 import ServiceModal from "./Modals/ServiceModal";
-import image1 from "../assets/picutere.jpg";
 import TrainModal from "./Modals/TrainModal";
 import SocialModal from "./Modals/SocialModal";
 import JobModal from "./Modals/JobModal";
-import ContactModal from "./Modals/ContactModal";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faChevronDown} from '@fortawesome/free-brands-svg-icons'; // Import the Facebook icon
 import { faChevronDown, faChevronUp, faChevronRight } from "@fortawesome/free-solid-svg-icons";
@@ -109,7 +107,7 @@ const links = [
   {
     text: "Locations & contact",
     path: "#",
-    modal: <ContactModal />,
+
   },
 ];
 
@@ -128,7 +126,7 @@ const Navbar = () => {
       {showAction && (
         <section
           id="id"
-          className="absolute w-full h-full top-0 bg-[#424874] text-5xl p-4 flex flex-col justify-content-center origin-top animate-fadeIn z-200 "
+          className="absolute w-full h-full top-0 bg-[#424874] text-5xl flex flex-col justify-content-center origin-top animate-fadeIn z-200 "
         >
           {" "}
           <button
@@ -137,7 +135,7 @@ const Navbar = () => {
           >
             &times;
           </button>
-          <nav className="text-white flex flex-col gap-5 space-x-4 relative ">
+          <nav className="text-[#F4EEFF] flex flex-col items-center justify-center gap-5 space-x-4 relative  ">
           {links.map((link, index) => (
             <div
               key={index}
@@ -157,9 +155,9 @@ const Navbar = () => {
         </nav>
         </section>
       )}
-      <header className="flex relative justify-between items-center bg-[#F4EEFF] p-4 shadow-md h-20">
-        <h1 className="sm:text-2xl text-xl font-extrabold text-[#424874]">
-          Umar Bun Abdul Aziz
+      <header className="flex relative justify-between items-center bg-[#F4EEFF] px-10 shadow-md h-30">
+        <h1 className="sm:text-3xl text-xl font-extrabold text-[#424874]">
+          <Link>Umar Bun Abdul Aziz</Link>
         </h1>
 
         <button
@@ -178,7 +176,7 @@ const Navbar = () => {
               onMouseLeave={() => setHovered(null)}
               className={`relative flex justify-center items-center`}
             >
-              <NavLink to={link.path} className="text-sm hover:text-[#424874]">
+              <NavLink to={link.path} className="text-lg hover:text-[#424874]">
                 {link.text}
               </NavLink>
               {link.font && hovered === link.text ? (

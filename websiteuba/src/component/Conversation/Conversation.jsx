@@ -3,10 +3,10 @@ import profile from "../../assets/pro1.jpg";
 
 const Conversation = () => {
   return (
-    <section id="conversation" className=" bg-white">
-      <div className="bg-white text-center py-5  relative w-full">
+    <section id="conversation" className=" bg-[#F4EEFF]">
+      <div className="bg-white text-center py-5 bg-[#F4EEFF] relative w-full">
         <div className="flex flex-col justify-center items-center">
-          <h1 className="heading capitalize font-bold sm:text-3xl text-center text-[#424874] p-4">
+          <h1 className="heading capitalize font-bold text-2xl sm:text-5xl text-center text-[#424874] p-4">
             Let us have a conversation
           </h1>
           <div className="flex flex-col justify-center items-center sm:max-w-5xl sm:flex-row sm:flex-wrap gap-5 md:justify-start md:items-start m-10">
@@ -26,7 +26,7 @@ const Conversation = () => {
               <p className=" text-center sm:text-left mt-2 text-[#424874] font-bold">
                 Chairman
               </p>
-              <button className="text-white flex justify-center items-center text-center sm:justify-start sm:items-left mt-3  bg-[#424874] rounded-lg font-bold px-7 py-2 w-full sm:w-1/2">
+              <button className="border-1 border-[#424874] text-[#424874] flex justify-center items-center text-center sm:justify-start sm:items-left mt-3 rounded-lg font-bold px-7 py-2 w-full sm:w-1/2">
                 Contact Us
               </button>
             </div>
@@ -46,7 +46,7 @@ const Conversation = () => {
               <p className=" text-center sm:text-left mt-2 text-[#424874] font-bold">
                 Chairman
               </p>
-              <button className="text-white flex justify-center items-center text-center sm:justify-start sm:items-left mt-3  bg-[#424874] rounded-lg font-bold px-7 py-2 w-full sm:w-1/2">
+              <button className="border-1 border-[#424874] text-[#424874] flex justify-center items-center text-center sm:justify-start sm:items-left mt-3 rounded-lg font-bold px-7 py-2 w-full sm:w-1/2">
                 Contact Us
               </button>
             </div>
@@ -66,7 +66,7 @@ const Conversation = () => {
               <p className=" text-center sm:text-left mt-2 text-[#424874] font-bold">
                 Chairman
               </p>
-              <button className="text-white flex justify-center items-center text-center sm:justify-start sm:items-left mt-3  bg-[#424874] rounded-lg font-bold px-7 py-2 w-full sm:w-1/2">
+              <button className="border-1 border-[#424874] text-[#424874] flex justify-center items-center text-center sm:justify-start sm:items-left mt-3 rounded-lg font-bold px-7 py-2 w-full sm:w-1/2">
                 Contact Us
               </button>
             </div>
