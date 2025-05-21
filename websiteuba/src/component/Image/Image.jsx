@@ -8,11 +8,12 @@ const Image = () => {
   
   return (
     <section className="">
-      <div className={`sm:w-full h-[900px] relative`}>
+      <div className={`sm:w-full h-[900px] relative`} data-aos="fade-up">
         <img
           src={topImage}
           alt="Amalitech Training"
           className="w-full absolute h-[500px] sm:h-[720px] object-cover"
+          
         />
         <div className='bg-black/50 relative w-full h-[500px] sm:h-[720px]'></div>
       </div>

@@ -7,22 +7,28 @@ const Provider = () => {
       <div className="max-w-5xl bg-white  mx-auto flex flex-col sm:flex-row gap-20 items-center justify-center m-4 p-5">
         <div className="info sm:w-1/2" data-aos="fade-right">
           <h1 className="capitalize text-center leading-10 text-2xl sm:text-5xl text-[#00a401]   mb-5 font-extrabold">
-            We Are Not A Classic Outsorucing Provider
+            Testimonials
           </h1>
-          <p className="sm:text-justify sm:leading-8 sm:text-lg">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam
-            aspernatur accusamus ipsa inventore iure perspiciatis minus
-            voluptas. Debitis necessitatibus provident earum fugiat minima quos
-            molestiae, nemo nam dolorem itaque vel laudantium amet, magni
-            doloremque ut{" "}
-            <span>
-              praesentium odit voluptates suscipit mollitia. Lorem, ipsum dolor
-              sit amet consectetur adipisicing elit. Aliquam aspernatur
-              accusamus ipsa inventore iure perspiciatis minus.{" "}
-            </span>
-          </p>
-        <button className="border-1 border-[#00a401] text-[#00a401] text-lg px-5 mt-5 py-3 rounded-lg font-bold cursor-pointer flex justify-center items-center mx-auto">Learn More</button>
-          </div>
+          <blockquote>
+            <p className="sm:text-justify sm:leading-8 sm:text-lg">
+              UBA has truly shaped me into a better human being—both in my
+              Islamic faith and in worldly matters. During my time here, I had
+              the opportunity to memorize the entire Qur'an, study numerous
+              hadiths, and learn deeply about the life and teachings of the Holy
+              Prophet Muhammad (peace be upon him). UBA has provided me with
+              more than just knowledge; it has nurtured my character,
+              discipline, and purpose. I wholeheartedly recommend this great
+              institution to anyone seeking both academic excellence and
+              spiritual growth. UBA – Children Today, Leaders Tomorrow.
+            </p>
+            <footer>
+              <strong className="text-[#00a401]">Farid Alhassan</strong>
+            </footer>
+            <p>
+              <em>UBA – Children Today, Leaders Tomorrow.</em>
+            </p>
+          </blockquote>
+        </div>
         <div className="image sm:w-1/2" data-aos="fade-left">
           <img
             src={proImage}
