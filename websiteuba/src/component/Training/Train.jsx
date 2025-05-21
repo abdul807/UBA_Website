@@ -5,8 +5,8 @@ import "aos/dist/aos.css";
 const Train = () => {
   return (
     <section id="training  w-full"> 
-      <div className="max-w-5xl bg-[#F4EEFF] flex flex-col sm:flex-col gap-10 mx-auto text-center sm:-mt-50 -mt-30 p-5 sm:mt-35">
-        <h1 className="capitalize text-2xl sm:text-5xl  mt-7 sm:text-5xl font-bold text-center sm:font-extrabold  text-[#424874] sm:mt-15 py-15 sm:px-4  relative w-full" data-aos="fade-down">
+      <div className="max-w-5xl bg-[#F4EEFF] flex flex-col sm:flex-col gap-10 mx-auto text-center sm:-mt-10  p-5 ">
+        <h1 className="capitalize text-2xl sm:text-5xl  mt-7 sm:text-5xl font-bold text-center sm:font-extrabold  text-[#424874] py-15 sm:px-4  relative w-full" data-aos="fade-down">
           Connecting Continents, Empowering Individuals And Businesses - How?
         </h1>
 

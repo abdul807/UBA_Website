@@ -16,18 +16,19 @@ import Footer from "../component/Footer/Footer";
 
 const HomePage = () => {
   return (
-    <div className="min-h-screen bg-[#F4EEFF]  relative">
+    <div className="min-h-screen bg-white relative">
       {/* <Background> */}
       <Navbar />
         <Image />
         <Offers />
-        <MapComponent />
-        <Partners />
+        
+        {/* <Partners /> */}
         <Train />
         <Provider />
         <Service />
         <Benefit />
         <Conversation />
+        <MapComponent />
         <Footer />
       {/* </Background> */}
       {/* <div className="bg-red-200 p-4">Row 4 Content</div> */}

@@ -1,5 +1,8 @@
 import React from "react";
 import profile from "../../assets/pro1.jpg";
+import gado from "../../assets/asistant.jpg"
+import razak from "../../assets/malamrazak.jpg"
+import abu from "../../assets/abu.jpg"
 
 const Conversation = () => {
   return (
@@ -13,18 +16,18 @@ const Conversation = () => {
             <div className="max-w-[500px]">
               <img
                 alt="profile"
-                src={profile}
+                src={abu}
                 className="w-80 h-90 object-cover"
                 srcset=""
               />
               <p className="sm:text-left mt-2 text-[#424874] font-bold text-center">
                 <span className="text-center sm:text-left mt-2 text-[#424874] font-bold inline-block border-b-2 border-[#424874] pb-1">
-                  Sheik
+                Sheik
                 </span>
-                Abdul Razak
+                Abubakar Ali Koli
               </p>
               <p className=" text-center sm:text-left mt-2 text-[#424874] font-bold">
-                Chairman
+                Propiertor
               </p>
               <button className="border-1 border-[#424874] text-[#424874] flex justify-center items-center text-center sm:justify-start sm:items-left mt-3 rounded-lg font-bold px-7 py-2 w-full sm:w-1/2">
                 Contact Us
@@ -33,7 +36,7 @@ const Conversation = () => {
             <div className="max-w-[500px]">
               <img
                 alt="profile"
-                src={profile}
+                src={razak}
                 className="w-80 h-90 object-cover"
                 srcset=""
               />
@@ -41,10 +44,10 @@ const Conversation = () => {
                 <span className="text-center sm:text-left mt-2 text-[#424874] font-bold inline-block border-b-2 border-[#424874] pb-1">
                   Sheik
                 </span>
-                Abdul Razak
+                Abdul Razak Mohammed Umar
               </p>
               <p className=" text-center sm:text-left mt-2 text-[#424874] font-bold">
-                Chairman
+                Headmaster
               </p>
               <button className="border-1 border-[#424874] text-[#424874] flex justify-center items-center text-center sm:justify-start sm:items-left mt-3 rounded-lg font-bold px-7 py-2 w-full sm:w-1/2">
                 Contact Us
@@ -53,7 +56,7 @@ const Conversation = () => {
             <div className="max-w-[500px]">
               <img
                 alt="profile"
-                src={profile}
+                src={gado}
                 className="w-80 h-90 object-cover"
                 srcset=""
               />
@@ -61,10 +64,10 @@ const Conversation = () => {
                 <span className="text-center sm:text-left mt-2 text-[#424874] font-bold inline-block border-b-2 border-[#424874] pb-1">
                   Sheik
                 </span>
-                Abdul Razak
+                Mohammed Hafiz
               </p>
               <p className=" text-center sm:text-left mt-2 text-[#424874] font-bold">
-                Chairman
+                Asst. Headmaster
               </p>
               <button className="border-1 border-[#424874] text-[#424874] flex justify-center items-center text-center sm:justify-start sm:items-left mt-3 rounded-lg font-bold px-7 py-2 w-full sm:w-1/2">
                 Contact Us

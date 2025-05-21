@@ -34,7 +34,7 @@ const Footer = () => {
         </div>
         <div className="flex sm:flex-row flex-col justify-center items-center gap-10 sm:justify-between sm:items-center mb-20">
           <p className="text-white text-sm ">
-            © 2025 Your Company | All rights reserved
+            © 2025 Umar Bun Abdul Aziz | All rights reserved
           </p>
           <div className="icons flex">
             <Link className="text-white mx-2">

@@ -1,60 +1,3 @@
-// import React, { useState } from "react";
-// import { Link, NavLink } from "react-router-dom";
-// import About from "./Modals/About";
-// import ServiceModal from './Modals/ServiceModal'
-
-// const Navbar = () => {
-//   const [hovered, Sethovered] = useState(null);
-//   const [showActions, setShowActions] = useState(false)
-
-//   const toggleActions = (index) => {
-//     setShowActions((prevState) => ({
-//       ...prevState,
-//       [index]: !prevState[index], // Toggle the visibility of the actions for the specific row
-//     }));
-//     // setTimeout(() => {
-//     //   setShowActions((prevState) => ({
-//     //     ...prevState,
-//     //     [id]: false, // Hide the actions after a delay
-//     //   }));
-//     // }, 3000); // Adjust the delay as needed (2000ms = 2 seconds)
-//   };
-
-//   const Mouseleave = () => {
-//     Sethovered(null);
-//   };
-//   return (
-//     <header className="flex relative  justify-between items-center bg-[#F4EEFF] p-4 shadow-md h-20">
-//       <h1 className="sm:text-2xl text-xl font-extrabold text-[#424874]">
-//         Umar Bun Abdul Aziz
-//       </h1>
-
-//       <button
-//         id="hamburger-button"
-//         className="sm:hidden focus:outline-none text-4xl text-green-900 "
-//       >
-//         &#9776;
-//       </button>
-//       <nav className="hidden  sm:flex space-x-4">
-//         <NavLink to="/" className="text-sm hover:text-[#424874]"
-//         onMouseLeave={Mouseleave}>
-
-//           Home
-//         </NavLink>
-//         <NavLink className="text-sm hover:text-[#424874]">About UBA</NavLink>
-//         <NavLink className="text-sm hover:text-[#424874]">UBA Services</NavLink>
-//         <NavLink className="text-sm hover:text-[#424874]">UBA Training</NavLink>
-//         <NavLink className="text-sm hover:text-[#424874]">UBA Social</NavLink>
-//         <NavLink className="text-sm hover:text-[#424874]"> Jobs</NavLink>
-//         <NavLink className="text-sm hover:text-[#424874]">
-//           Locations & contact
-//         </NavLink>
-//       </nav>
-//     </header>
-//   );
-// };
-
-// export default Navbar;
 
 import React, { useState } from "react";
 import { NavLink, Link } from "react-router-dom";
@@ -80,12 +23,12 @@ const links = [
     modal: <About />,
     font: true,
   },
-  {
-    text: "UBA Services",
-    path: "#",
-    modal: <ServiceModal />,
-    font: true,
-  },
+  // {
+  //   text: "UBA Services",
+  //   path: "#",
+  //   modal: <ServiceModal />,
+  //   font: true,
+  // },
   {
     text: "UBA Training",
     path: "#",
@@ -98,12 +41,12 @@ const links = [
     modal: <SocialModal />,
     font: true,
   },
-  {
-    text: "Jobs",
-    path: "#",
-    modal: <JobModal />,
-    font: true,
-  },
+  // {
+  //   text: "Jobs",
+  //   path: "#",
+  //   modal: <JobModal />,
+  //   font: true,
+  // },
   {
     text: "Locations & contact",
     path: "#",
@@ -126,7 +69,7 @@ const Navbar = () => {
       {showAction && (
         <section
           id="id"
-          className="absolute w-full h-full top-0 bg-[#424874] text-5xl flex flex-col justify-content-center origin-top animate-fadeIn z-200 "
+          className="absolute w-full bg-[#dadada] h-full top-0  text-5xl flex flex-col justify-content-center origin-top animate-fadeIn z-200 "
         >
           {" "}
           <button
@@ -155,8 +98,8 @@ const Navbar = () => {
         </nav>
         </section>
       )}
-      <header className="flex relative justify-between items-center bg-[#F4EEFF] px-10 shadow-md h-30">
-        <h1 className="sm:text-3xl text-xl font-extrabold text-[#424874]">
+      <header className=" bg-white flex relative justify-between items-center px-10 shadow-md h-20">
+        <h1 className="sm:text-3xl text-xl font-extrabold text-[#00a401]">
           <Link>Umar Bun Abdul Aziz</Link>
         </h1>
 
@@ -176,13 +119,13 @@ const Navbar = () => {
               onMouseLeave={() => setHovered(null)}
               className={`relative flex justify-center items-center`}
             >
-              <NavLink to={link.path} className="text-lg hover:text-[#424874]">
+              <NavLink to={link.path} className="text-lg text-[#00a401] hover:font-bold">
                 {link.text}
               </NavLink>
               {link.font && hovered === link.text ? (
-                <FontAwesomeIcon icon={faChevronUp} />
+                <FontAwesomeIcon icon={faChevronUp} className="text-[#00a401]" />
               ) : (
-                link.font && <FontAwesomeIcon icon={faChevronDown} />
+                link.font && <FontAwesomeIcon icon={faChevronDown} className="text-[#00a401]" />
               )}
 
               {hovered === link.text && link.modal && link.modal}
