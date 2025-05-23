@@ -5,13 +5,13 @@ import Image from "../component/Image/Image";
 import MapComponent from "../component/Map/MapComponent";
 import Partners from "../component/Partners/Partners";
 import Train from "../component/Training/Train";
-
-import Provider from "../component/Provider/Provider";
+import Testimonial from "../component/Provider/Testimonial";
 import Service from "../component/Services/Service";
 import Benefit from "../component/Benefits/Benefit";
 import Conversation from "../component/Conversation/Conversation";
 import Navbar from "../component/Navbar";
 import Footer from "../component/Footer/Footer";
+import Background from "../component/Background/Background";
 
 
 const HomePage = () => {
@@ -24,7 +24,8 @@ const HomePage = () => {
         
         {/* <Partners /> */}
         <Train />
-        <Provider />
+        <Background />
+        <Testimonial />
         <Service />
         <Benefit />
         <Conversation />

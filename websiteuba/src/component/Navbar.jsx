@@ -99,7 +99,7 @@ const Navbar = () => {
         </section>
       )}
       <header className=" bg-white flex relative justify-between items-center px-10 shadow-md h-20">
-        <h1 className="sm:text-3xl text-xl font-extrabold text-[#00a401]">
+        <h1 className="sm:text-3xl text-xl font-extrabold text-[#06724b]">
           <Link>Umar Bun Abdul Aziz</Link>
         </h1>
 
@@ -119,7 +119,7 @@ const Navbar = () => {
               onMouseLeave={() => setHovered(null)}
               className={`relative flex justify-center items-center`}
             >
-              <NavLink to={link.path} className="text-lg text-[#00a401] hover:font-bold">
+              <NavLink to={link.path} className="text-lg text-black hover:font-bold">
                 {link.text}
               </NavLink>
               {link.font && hovered === link.text ? (

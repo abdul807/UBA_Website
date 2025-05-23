@@ -27,12 +27,12 @@ const Image = () => {
           Children today, leaders tomorrow
         </div>
         <div className="sm:justify-start flex justify-center space-x-4 text-white mt-20">
-          <button className="capitalize bg-[#00a401] px-3 py-3  sm:px-10 sm:py-5 rounded-lg font-extrabold shadow-lg">
+          <button className="capitalize bg-white px-3 py-3 text-[#06724b]  sm:px-15  font-extrabold shadow-lg">
             contact us
           </button>
           <Link
             to="https://www.facebook.com/profile.php?id=100076396008442&sk=videos"
-            className="capitalize border-1 border-[#00a401]  px-3 py-3 sm:px-10 sm:py-5 cursor-pointer rounded-lg font-bold shadow-lg"
+            className="capitalize border-1 border-white  px-3 py-3 sm:px-15 cursor-pointer font-bold shadow-lg"
           >
             watch video
           </Link>

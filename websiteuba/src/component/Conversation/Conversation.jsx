@@ -9,7 +9,7 @@ const Conversation = () => {
     <section id="conversation" className=" bg-[#F4EEFF]">
       <div className="bg-white text-center py-5 bg-[#F4EEFF] relative w-full">
         <div className="flex flex-col justify-center items-center">
-          <h1 className="heading capitalize font-bold text-2xl sm:text-5xl text-center text-[#424874] p-4">
+          <h1 className="heading capitalize font-bold text-2xl sm:text-5xl text-center text-[#06724b] p-4">
             Let us have a conversation
           </h1>
           <div className="flex flex-col justify-center items-center sm:max-w-5xl sm:flex-row sm:flex-wrap gap-5 md:justify-start md:items-start m-10">
@@ -20,16 +20,16 @@ const Conversation = () => {
                 className="w-80 h-90 object-cover"
                 srcset=""
               />
-              <p className="sm:text-left mt-2 text-[#424874] font-bold text-center">
-                <span className="text-center sm:text-left mt-2 text-[#424874] font-bold inline-block border-b-2 border-[#424874] pb-1">
+              <p className="sm:text-left mt-2 text-[#06724b] font-bold text-center">
+                <span className="text-center sm:text-left mt-2 text-[#06724b] font-bold inline-block border-b-2 border-[#06724b] pb-1">
                 Sheik
                 </span>
                 Abubakar Ali Koli
               </p>
-              <p className=" text-center sm:text-left mt-2 text-[#424874] font-bold">
+              <p className=" text-center sm:text-left mt-2 text-[#06724b] font-bold">
                 Propiertor
               </p>
-              <button className="border-1 border-[#424874] text-[#424874] flex justify-center items-center text-center sm:justify-start sm:items-left mt-3 rounded-lg font-bold px-7 py-2 w-full sm:w-1/2">
+              <button className="border-1 border-[#424874] text-white flex justify-center items-center text-center sm:justify-start sm:items-left mt-3 bg-[#06724b] font-bold px-7 py-2 w-full sm:w-1/2">
                 Contact Us
               </button>
             </div>
@@ -40,16 +40,16 @@ const Conversation = () => {
                 className="w-80 h-90 object-cover"
                 srcset=""
               />
-              <p className="sm:text-left mt-2 text-[#424874] font-bold text-center">
-                <span className="text-center sm:text-left mt-2 text-[#424874] font-bold inline-block border-b-2 border-[#424874] pb-1">
+              <p className="sm:text-left mt-2 text-[#06724b] font-bold text-center">
+                <span className="text-center sm:text-left mt-2 text-[#06724b] font-bold inline-block border-b-2 border-[#06724b] pb-1">
                   Sheik
                 </span>
                 Abdul Razak Mohammed Umar
               </p>
-              <p className=" text-center sm:text-left mt-2 text-[#424874] font-bold">
+              <p className=" text-center sm:text-left mt-2 text-[#06724b] font-bold">
                 Headmaster
               </p>
-              <button className="border-1 border-[#424874] text-[#424874] flex justify-center items-center text-center sm:justify-start sm:items-left mt-3 rounded-lg font-bold px-7 py-2 w-full sm:w-1/2">
+              <button className="border-1 border-[#00a401] text-white flex justify-center items-center text-center sm:justify-start sm:items-left mt-3 bg-[#06724b] font-bold px-7 py-2 w-full sm:w-1/2">
                 Contact Us
               </button>
             </div>
@@ -60,16 +60,16 @@ const Conversation = () => {
                 className="w-80 h-90 object-cover"
                 srcset=""
               />
-              <p className="sm:text-left mt-2 text-[#424874] font-bold text-center">
-                <span className="text-center sm:text-left mt-2 text-[#424874] font-bold inline-block border-b-2 border-[#424874] pb-1">
+              <p className="sm:text-left mt-2 text-[#06724b] font-bold text-center">
+                <span className="text-center sm:text-left mt-2 text-[#06724b] font-bold inline-block border-b-2 border-[#06724b] pb-1">
                   Sheik
                 </span>
                 Mohammed Hafiz
               </p>
-              <p className=" text-center sm:text-left mt-2 text-[#424874] font-bold">
+              <p className=" text-center sm:text-left mt-2 text-[#06724b] font-bold">
                 Asst. Headmaster
               </p>
-              <button className="border-1 border-[#424874] text-[#424874] flex justify-center items-center text-center sm:justify-start sm:items-left mt-3 rounded-lg font-bold px-7 py-2 w-full sm:w-1/2">
+              <button className="border-1 border-[#00a401] text-white flex justify-center items-center text-center sm:justify-start sm:items-left mt-3 bg-[#06724b] font-bold px-7 py-2 w-full sm:w-1/2">
                 Contact Us
               </button>
             </div>

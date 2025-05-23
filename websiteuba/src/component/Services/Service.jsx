@@ -19,9 +19,9 @@ const Service = () => {
   };
   return (
     <section id="service" className="">
-      <div className="bg-[#a7c263] text-center py-5  relative w-full">
+      <div className="bg-[#effffa] text-center py-5  relative w-full">
         <div className="flex flex-col justify-center items-center">
-          <h1 className="heading capitalize font-bold text-2xl sm:text-5xl text-center text-white p-4">
+          <h1 className="heading capitalize font-bold text-2xl sm:text-5xl text-center text-[#00a401] p-4">
             Our curiculum
           </h1>
           <div className="flex flex-col sm:flex-row sm:flex-wrap gap-5 justify-center items-center m-10">

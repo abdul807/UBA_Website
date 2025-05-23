@@ -11,9 +11,9 @@ const Offers = () => {
 
   return (
     <section className="-mt-90 sm:-mt-30 mb-10   ">
-      <div className="max-w-5xl bg-[#F4EEFF] flex flex-col sm:flex-col gap-10 mx-auto text-center sm:-mt-10  p-5 ">
+      <div className="max-w-5xl   flex flex-col sm:flex-col gap-10 mx-auto text-center sm:-mt-10  p-5 ">
       <div className="  heading text-center">
-        <h1 className="sm:font-extrabold font-bold  text-2xl sm:text-5xl  text-[#00a401] - deep green" data-aos="fade" data-aos-duration="200">
+        <h1 className="sm:font-extrabold font-bold  text-2xl sm:text-5xl  text-[#00a401]" data-aos="fade" data-aos-duration="200">
           We Believe In The Power Of Global Collaboration
         </h1>
       </div>
